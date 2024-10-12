@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -89,12 +87,13 @@ nav {
     display: flex;
     align-items: center;
     border-radius: 20px;
+    transition: background-color ease 200ms;
 
 }
 .navbar-options li:hover {
     background-color: var(--gray2);
     cursor: pointer;
-    transition: ease-in-out 100ms;
+   
 }
 a {
     color: white;
@@ -235,7 +234,6 @@ a {
 
 .hero-vector {
     width: 100px;
-
 }
 .left, .right {
     display: flex;
@@ -345,13 +343,13 @@ a {
 }
 
 .macbook1 {
-    background: url('assets/macbook1.png');
+    background: url('../assets/macbook1.png');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
 }
 .macbook2 {
-    background: url('assets/macbook2.png');
+    background: url('../assets/macbook2.png');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
