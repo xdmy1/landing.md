@@ -345,13 +345,13 @@ a {
 }
 
 .macbook1 {
-    background: url(assets/macbook1.png);
+    background: url('assets/macbook1.png');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
 }
 .macbook2 {
-    background: url(assets/macbook2.png);
+    background: url('assets/macbook2.png');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
