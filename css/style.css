@@ -425,7 +425,10 @@ p {
     flex-direction: column;
     padding: 7rem 15%; /* Keep consistent padding */
     box-sizing: border-box;
-
+    background-image: url('../assets/hero-background-black.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .container-despre-noi {
@@ -635,8 +638,8 @@ p {
     text-align: center;
 }
 .eticheta-pricing-p {
-    padding: 5px 5px;
-    width: 140px;
+    padding: 5px 12px;
+
     text-align: center;
     border-radius: 20px;
     font-size: 1rem;
@@ -663,12 +666,12 @@ p {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: calc((100% / 3) - 12px);
-    gap: 16px;
+    gap: 10px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     scrollbar-width: 0;
-    background: linear-gradient(to right, transparent 0, rgb(0, 0, 0) 128px,rgb(0, 0, 0) calc(100% - 128px), transparent 100%);
+
 }
 
 .carousel::-webkit-scrollbar {
@@ -707,6 +710,7 @@ p {
     align-items: center;
     text-align: center;
     color: white;
+
 }
 .icon-pricing {
     width: 50px;
@@ -750,7 +754,7 @@ p {
 
 @media screen and (max-width: 600px) {
     .wrapper .carousel {
-        grid-auto-columns: 100%;
+        grid-auto-columns: 90%;
     }
 }
 
