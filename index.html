@@ -10,27 +10,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        <!--SEO-->
+    
 </head>
 <body>
     <nav class="navbar">
         <button class="navbar-landings-button inter">Landings</button>
         <button onclick=openNav() class="navbar-landings-button button-opennav inter desktop-hidden"><img style="width: 25px;" src="assets/burger.svg" alt="burger"></button>
         <ul class="navbar-options space">
-            <li onclick=closeNav() class="mobile-hidden"><a href="#">Lorem</a></li>
-            <li onclick=closeNav() class="mobile-hidden"><a href="#">Lorem</a></li>
-            <li onclick=closeNav() class="mobile-hidden"><a href="#">Lorem</a></li>
-            <li onclick=closeNav() class="mobile-hidden"><a href="#">Lorem</a></li>
-            <li onclick=closeNav() class="desktop-hidden"><p style="color: white;">Close NAV</p></li>
+            <li onclick=closeNav() class="mobile-hidden"><a href="#acasa">Acasa</a></li>
+            <li onclick=closeNav() class="mobile-hidden"><a href="#proiecte">Proiecte</a></li>
+            <li onclick=closeNav() class="mobile-hidden"><a href="#despre-noi">Despre Noi</a></li>
+            <li onclick=closeNav() class="mobile-hidden"><a href="#preturi">Preturi</a></li>
+            <li onclick=closeNav() class="desktop-hidden"><p style="color: white;">x</p></li>
             
 
         </ul>
     </nav>
 
 
-    <section class="hero">
+    <section id="acasa" class="hero">
         <div class="eticheta-hero"><p class="inter eticheta-hero-p">Rezultate Online</p></div>
-        <div class="h1-hero"><h1 class="space h1-hero-text">Dezvoltam <br> Website-uri Eficiente</h1></div>
-        <div class="hero-p"><h2 class="inter hero-p-text" style="font-weight: 400;">Construim site-uri moderne, optimizate și eficiente, care îți pun afacerea în centrul atenției.</h2></div>
+        <div class="h1-hero"><h1 class="space h1-hero-text">Creare <br> Site Web</h1></div>
+        <div class="hero-p"><h2 class="inter hero-p-text" style="font-weight: 400;">Construim site-uri moderne, optimizate și eficiente, care îți pun afacerea în centrul atenției în Moldova.</h2></div>
         <div class="hero-buttons"><button class="inter buton-hero1">Vezi Proiecte</button><button class="inter buton-hero2">Comanda Acum</button></div>
         <div class="hero-images">
             <div class="left">
@@ -45,7 +47,7 @@
         </div>
     </section>
 
-    <section class="proiecte">
+    <section id="proiecte" class="proiecte">
         <div class="top-proiecte">
             <div class="left-proiecte">
                 <p class="inter left-p-proiecte">Landings.md</p>
@@ -73,7 +75,7 @@
         </div>
     </section>
  
-    <section class="despre-noi" >
+    <section id="despre-noi" class="despre-noi" >
         <div class="container-despre-noi">
             <div class="top-despre-noi">
                 <div class="left-despre-noi">
@@ -107,6 +109,76 @@
         <div class="despre-noi-bottom-text">
             <p class="space despre-noi-1">Misiunea Noastra?</p>
             <p class="space despre-noi-2">Să facem afacerea ta vizibilă și accesibilă pentru toată lumea.</p>
+        </div>
+
+        <div id="preturi" class="pricing">
+
+            <div class="top-pricing">
+                    <p class="inter eticheta-pricing-p">Rezultate Online</p>
+                    <h2 class="inter pricing-h2">Simple <br> Transparent <span class="span-h2-pricing">Pricing</span></h2>
+        
+            </div>
+        
+        
+        
+            <div class="wrapper">
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="carousel-card-top">
+                            <img class="icon-pricing" src="assets/icon1.png" alt="icon">
+                            <h3 class="space">Basic Plan</h3>
+                        </div>
+                        <div class="carousel-card-middle inter">
+                            <p class="carousel-p">easdasd</p>
+                            <p class="carousel-p">asdasdasdasw</p>
+                            <p class="carousel-p">fghjkghjk</p>
+                            <p class="carousel-p">eqqwer</p>
+                            <p class="carousel-p">hjnkljhkl</p>
+                        </div>
+                        <div class="carousel-card-bottom">
+                            <button class="carousel-button">
+                                Contacteaza-ne
+                            </button>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-card-top">
+                            <img class="icon-pricing" src="assets/icon2.png" alt="icon">
+                            <h3 class="space">Advanced Plan</h3>
+                        </div>
+                        <div class="carousel-card-middle inter ">
+                            <p class="carousel-p ">easdasd</p>
+                            <p class="carousel-p ">asdasdasdasw</p>
+                            <p class="carousel-p ">fghjkghjk</p>
+                            <p class="carousel-p ">eqqwer</p>
+                            <p class="carousel-p ">hjnkljhkl</p>
+                        </div>
+                        <div class="carousel-card-bottom">
+                            <button class="carousel-button">
+                                Contacteaza-ne
+                            </button>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-card-top">
+                            <img class="icon-pricing" src="assets/icon3.png" alt="icon">
+                            <h3 class="space">Premium Plan</h3>
+                        </div>
+                        <div class="carousel-card-middle inter">
+                            <p class="carousel-p">easdasd</p>
+                            <p class="carousel-p">asdasdasdasw</p>
+                            <p class="carousel-p">fghjkghjk</p>
+                            <p class="carousel-p">eqqwer</p>
+                            <p class="carousel-p">hjnkljhkl</p>
+                        </div>
+                        <div class="carousel-card-bottom">
+                            <button class="carousel-button">
+                                Contacteaza-ne
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
